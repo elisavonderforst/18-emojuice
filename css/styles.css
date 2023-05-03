@@ -47,10 +47,11 @@ nav {
   background: #57BB6B;
   font-size: 20px;
   color: white;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-bottom: 20px;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px 30px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.134);
 }
 
 .cta-white {
@@ -58,10 +59,11 @@ nav {
   background: white;
   color: #57BB6B;
   font-size: 20px;
-  padding: 10px 20px;
-  border-radius: 10px;
+  padding: 10px 30px;
+  border-radius: 15px;
   margin-bottom: 10px;
   text-decoration: none;
+  box-shadow: 0px 10px 5px rgba(0,0,0,0.1);
 }
 
 .section-white {
@@ -105,7 +107,7 @@ h2 {
 
 .product {
   margin: 30px 30px 40px 30px;
-  padding: 35px;
+  padding: 20px 35px 35px 35px;
   border-radius: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -125,12 +127,14 @@ h2 {
 
 .slogan-produits {
   opacity: 50%;
+  font-size: 16px;
   margin: 0 ;
 }
 
-.illu-div-green {
+.illu-section-green {
+  width: 90px;
   align-self: flex-end;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 h3 {
@@ -139,16 +143,8 @@ h3 {
   margin: 0;
 }
 
-.illu-div-green {
-  width: 90px;
-}
-
 .banana {
   background: #FFF8D7;
-}
-
-.banana .illu-div-green {
-  image-orientation: flip;
 }
 
 .kiwi {
@@ -179,5 +175,5 @@ footer {
 }
 
 footer .small-illu-conteneur {
-  padding: 20px 60px 20px;
+  padding: 20px 30px 20px;
 }
