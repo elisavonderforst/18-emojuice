@@ -2,9 +2,182 @@ body {
   max-width: 380px;
   margin: auto;
   background: #ddd;
+  font-family: 'Quattrocento', serif;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header {
+  background-image: url(../img/background.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  padding: 30px 25px;
+  border-top: 8px solid #57BB6B;
+}
+
+.box-title {
+  background: #ffffffeb;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 75%;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.slogan {
+  color: #57BB6B;
+  font-size: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-green {
+  font-family: 'Maven Pro', sans-serif;
+  background: #57BB6B;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.cta-white {
+  font-family: 'Maven Pro', sans-serif;
+  background: white;
+  color: #57BB6B;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.section-white {
+  background: white;
+}
+
+h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 26px;
+  padding-top: 70px;
+  margin: 0;
+  text-align: center;
+}
+
+.emojuice-explanation {
+  font-size: 16px;
+  text-align: center;
+  margin: 20px 60px 30px 60px;
+}
+
+.small-illu-conteneur{
+  padding: 10px 60px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-illu {
+  width: 30px;
+  margin: 0;
+}
+
+.section-green {
+  background: #57BB6B;
+  padding-bottom: 10px;
+}
+
+.section-green h2 {
+  color: white;
+  padding-top: 40px;
+}
+
+.product {
+  margin: 30px 30px 40px 30px;
+  padding: 35px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: left;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.134);
+}
+
+.product a {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 14px;
+  color: black;
+  font-weight: 700;
+  padding-top: 80px;
+}
+
+.slogan-produits {
+  opacity: 50%;
+  margin: 0 ;
+}
+
+.illu-div-green {
+  align-self: flex-end;
+  margin-top: 50px;
+}
+
+h3 {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+  margin: 0;
+}
+
+.illu-div-green {
+  width: 90px;
+}
+
+.banana {
+  background: #FFF8D7;
+}
+
+.banana .illu-div-green {
+  image-orientation: flip;
+}
+
+.kiwi {
+  background: #C4F2AD;
+}
+
+.coffee {
+  background: #D3C6B2;
+}
+
+.strawberry {
+  background: #F7A4B4;
+}
+
+.contact {
+  color: #57BB6B;
+  margin-bottom: 30px;
+  padding-top: 40px;
+}
+
+footer {
+  background: white;
+  color: #57BB6B;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 30px;
+}
+
+footer .small-illu-conteneur {
+  padding: 20px 60px 20px;
 }
