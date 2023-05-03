@@ -12,8 +12,14 @@
 
   <body>
     <header>
-      <h1>emojuice.</h1>
-      <p>Boisson végétales préparées avec amour</p>
+      <div class="box-title">
+        <h1><img class="logo" src="img/logo_emojuice.svg" alt="logo emojuice."></h1>
+        <p class="slogan">
+          Boisson végétales
+          <br>
+          préparées avec amour
+        </p> 
+      </div>
       <nav>
         <a class="cta-green" href="#produits">Accédez à nos produits</a>
         <a class="cta-white" href="#contacter">Nous contacter</a>
@@ -22,46 +28,58 @@
     <main>
       <div class="section-white">
        <h2>
-        Manger sainement: «un art de vie»
-      </h2>
-      <p>
-        Chez emojuice, nous tentons de vous fournir des produits 
-        sains et respectueux de la planète.
-      </p>
-      <img src="img/peche.svg" alt="le dessin d'une pêche">
-      <img src="img/citron.svg" alt="le dessin d'un citron">
-      <img src="img/pasteque.svg" alt="le dessin d'une pastèque">
-      <img src="img/orange.svg" alt="le dessin d'une orange">
+        Manger sainement: 
+        <br>
+        «un art de vie»
+        </h2>
+        <p class="emojuice-explanation">
+          Chez <strong>emojuice</strong>, nous tentons de vous fournir des produits 
+          <strong>sains</strong> et <strong>respectueux</strong> de la planète.
+        </p>
+        <div class="small-illu-conteneur">
+          <img class="small-illu"
+               src="img/peche.svg"
+               alt="le dessin d'une pêche">
+          <img class="small-illu"
+               src="img/citron.svg"
+               alt="le dessin d'un citron">
+          <img class="small-illu"
+               src="img/pasteque.svg" 
+               alt="le dessin d'une pastèque">
+          <img class="small-illu"
+               src="img/orange.svg"
+               alt="le dessin d'une orange">
+        </div>
       </div>
       <div class="section-green">
         <h2 id="produits">Nos produits</h2>
-        <div class="banana">
+        <div class="product banana">
           <h3>Jus banane</h3>
-          <p>Notre plus grand classique.</p>
+          <p class="slogan-produits">Notre plus grand classique.</p>
           <a href="#">En savoir plus</a>
           <img class="illu-div-green" 
                src="img/banane.svg" 
                alt="le dessin d'une banane">
         </div>
-        <div class="kiwi">
+        <div class="product kiwi">
           <h3>Sirop kiwi</h3>
-          <p>En vert et contre tous.</p>
+          <p class="slogan-produits">En vert et contre tous.</p>
           <a href="#">En savoir plus</a>
           <img class="illu-div-green" 
                src="img/kiwi.svg" 
                alt="le dessin d'un kiwi">
         </div>
-        <div class="coffee">
+        <div class="product coffee">
           <h3>Glace au café</h3>
-          <p>«Un espresso pour Georges!»</p>
+          <p class="slogan-produits">«Un espresso pour Georges!»</p>
           <a href="#">En savoir plus</a>
           <img class="illu-div-green" 
-              src="img/cafe.svg" 
-              alt="le dessin d'un café">
+               src="img/cafe.svg" 
+               alt="le dessin d'un café">
         </div>
-        <div class="strawberry">
+        <div class="product strawberry">
           <h3>Délice à la fraise</h3>
-          <p>La voilà qui ramène sa fraise.</p>
+          <p class="slogan-produits">La voilà qui ramène sa fraise.</p>
           <a href="#">En savoir plus</a>
           <img class="illu-div-green" 
                src="img/fraise.svg" 
@@ -69,20 +87,38 @@
         </div>
       </div>
       <div class="section-white">
-        <h2 id="contacter">Nous contacter</h2>
+        <h2 class="contact" id="contacter">Nous contacter</h2>
         <nav>
-          <a class="cta-green" href="#">emojuice@veggies.ch</a>
-          <a class="cta-green" href="#">Instagram</a>
-          <a class="cta-green" href="#">Facebook</a>
+          <a class="cta-green" href="mailto:emojuice@veggies.ch">emojuice@veggies.ch</a>
+          <a class="cta-green" 
+             href="https://www.instagram.com/" 
+             target="_blank">Instagram</a>
+          <a class="cta-green" 
+             href="https://fr-fr.facebook.com/" 
+             target="_blank">Facebook</a>
         </nav>
-        <img src="img/banane.svg">
-        <img src="img/kiwi.svg">
-        <img src="img/pomme.svg">
-        <img src="img/ananas.svg">
       </div> 
     </main>
     <footer>
-      Emojuice est une marquedéposée par Veggies inc. Switzerland.
+      <p>
+        Emojuice est une marque
+        <br>
+        déposée par Veggies inc. Switzerland.
+      </p>
+      <div class="small-illu-conteneur">
+        <img class="small-illu"
+             src="img/banane.svg"
+             alt="le dessin d'une banane">
+        <img class="small-illu"
+             src="img/kiwi.svg"
+             alt="le dessin d'un kiwi">
+        <img class="small-illu"
+             src="img/pomme.svg"
+             alt="le dessin d'une pomme">
+        <img class="small-illu"
+             src="img/ananas.svg"
+             alt="le dessin d'un ananas">
+      </div>
     </footer>
   </body>
 </html>
